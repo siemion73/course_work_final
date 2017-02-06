@@ -1,0 +1,116 @@
+	.header { padding: 5px;
+		height: 350px;	
+		line-height: 50px;
+		width: 1000px;
+			
+		}
+	body { /* Стиль для усього документа */ 
+		font-size: 10pt; /* Розмір шрифта */ 
+		font-family: "Verdana", "sans-serif"; /* Назва шрифта */ 
+		background-image: url(bg.jpg); /* Задавагння фону  сторінки */
+		background-attachment: fixed; /* Закріплення фону сторінки */
+		background-position: center;
+	}
+	#logo {border-radius: 10px; border: 5px outset #52F2F7; margin: 30px 2% 10px 2%;
+	}
+	label {  /* Стиль для усіх елементів label */ 
+		display: inline-block; /* Тип блока */ 
+		width: 150px; /* Ширина */ 
+		vertical-align: top; /* Вертикальне вирівнювання */ 
+		font-size: 14pt; /* Розмір шрифта в lable */
+		color: #3AEEF7; /* Колір шрифта lable */
+		font-family: "Courier New"; /* Тип шрифта lable */
+		font-weight: 700;
+		font-style: oblique;
+	}
+	select { /* Стиль для усіх списків */
+		width: 250px; /* Ширина */
+		border: 2px outset #52F2F7; /* Визначення стилю границі */
+		background-color: #287072;
+	}
+	input.pole { /* Стиль для елемента input, що має клас pole */
+		width: 250px; /* Ширина */
+		border: 2px outset #52F2F7; /* Визначення стилю границі */
+		border-radius: 10px;
+		background-color: #287072; 
+	}
+	textarea { /* Стиль для багатострічкового текстового поля */
+		width: 250px; /* Ширина */
+		height: 100px; /* Висота */
+		border: 2px outset #52F2F7;
+		border-radius: 10px;
+		background-color: #287072;	/* Визначення стилю границі */
+	}
+	form div { /* Стиль для усіх div, розташованих всередині form */
+		margin-bottom: 20px; /* Відступ  блока знизу */
+	}
+	#comment { min-width:250px; max-width: 250px; min-height:100px; max-height: 200px;
+	}
+	fieldset { 
+		display: block;
+		margin-left: 13%;
+		margin-right: 68%;
+		padding-top: 0.35em;
+		padding-bottom: 0.625em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
+		border: 2px  outset #51F1F6 ;
+		border-radius: 10px;
+		background-color: #287072;
+	}
+	span {color: red; /* Колір зірочки */
+		font-weight: bold; /* Жирна зірочка */
+	}
+	font { font-size: 11pt; /* Розмір шрифта в полях */
+		color: #74FFFF; /* Колір шрифта в полях */
+		font-family: "Tahoma"; /* Шрифт в полях */
+		font-weight: bold; /* Жирний шрифт в полях */
+	}
+	#but { margin-left: 7%;
+	}
+	#tab { margin-left: 13%;
+	border: 2px;
+	border-radius: 5px;
+	}
+	input.button{ 
+		color: white;
+		font-size: 20pt;
+		border: 2px outset #51F1F6;
+		border-radius: 10px;
+		background-color: #287072;
+	}
+	ul.css-menu-1 {
+		list-style: none
+	}
+
+	ul.css-menu-1 li {
+		display: inline
+	}
+
+	ul.css-menu-1 li a {
+		font-family: Tahoma, Geneva, sans-serif; 
+		font-size: 15pt;
+		text-decoration: none;
+		background: #287072;
+		font-weight: bold;
+		color: #52F2F7; 
+		padding: 6px 10px 6px 10px;
+		border: 2px outset #52F2F7;
+		border-radius: 10px;
+	}
+
+	ul.css-menu-1 li a:hover {
+		padding: 6px 10px 6px 10px;
+		font-weight: bold;
+		background: #52F2F7;
+		color: #287072;
+		border: 2px inset #287072;
+
+	}
+
+	ul.css-menu-1 li a.selected {
+		background: #102828;
+		color: #74FFFF
+	}
+
+	
